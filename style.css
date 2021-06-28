@@ -1,0 +1,408 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 20px;
+  color: black;
+}
+.logo {
+  width: 10%;
+}
+.header-nav-item {
+  display: flex;
+  align-items: center;
+}
+.header-nav-list:not(:last-child) {
+  margin-right: 20px;
+}
+.relative {
+  position: relative;
+}
+.logo-img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 65%;
+}
+.logo-message {
+  position: absolute;
+  top: 7%;
+  left: 15%;
+  color: brown;
+  font-size: 70px;
+}
+h1 {
+  font-family: "Annie Use Your Telescope", cursive;
+  line-height: 1.5;
+}
+.message {
+  position: absolute;
+  top: 60%;
+  left: 14%;
+  color: brown;
+  font-weight: bold;
+  font-size: 18px;
+}
+.message2 {
+  position: absolute;
+  top: 65%;
+  left: 14%;
+  color: darkgray;
+  font-size: 13px;
+}
+span {
+  color: cadetblue;
+}
+.item {
+  width: 65%;
+  margin: 10% auto;
+  text-align: left;
+}
+.item-logo {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 20px;
+  color: crimson;
+  margin-bottom: 20px;
+}
+.item-message {
+  font-size: 30px;
+}
+.content {
+  border-top: 2px solid darkslateblue;
+  border-bottom: 2px solid darkslateblue;
+  width: 65%;
+  margin: 0 auto;
+}
+.content-form {
+  border-top: 1px solid darkgray;
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.content-date {
+  font-weight: lighter;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+}
+.content-logo {
+  margin-left: 40px;
+  background-color: firebrick;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px 10px;
+  display: inline-block;
+}
+.content-message {
+  font-weight: lighter;
+  width: 100%;
+  font-size: 15px;
+}
+.about {
+  background-color: rgb(219, 213, 213);
+  margin: 10% auto;
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+}
+.about-messages {
+  width: 100%;
+  color: darkslateblue;
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.about-messages p {
+  margin: 4em 0px;
+}
+.about-image {
+  margin-top: 13%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+.about-image img {
+  width: 100%;
+}
+.about-content {
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+.about-logo {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 20px;
+  color: crimson;
+  margin-bottom: 9px;
+}
+.about-message {
+  font-size: 30px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.service-content {
+  width: 80%;
+  margin: 10% auto;
+  text-align: left;
+}
+.service-logo {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 20px;
+  color: crimson;
+  margin-bottom: 20px;
+}
+.service-message {
+  font-size: 30px;
+}
+.grid {
+  width: 80%;
+  margin: 10% auto;
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 2fr 3fr;
+}
+.box1 {
+  background-color: crimson;
+  text-align: center;
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.grid-img {
+  width: 50%;
+  margin-top: 10%;
+}
+.grid-logo {
+  color: aliceblue;
+  font-weight: bold;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+.grid-message {
+  color: aliceblue;
+  width: 100%;
+}
+.box2 {
+  background-color: firebrick;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.grid-img2 {
+  width: 20%;
+}
+.grid-logo2 {
+  color: aliceblue;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5%;
+}
+.grid-message2 {
+  color: aliceblue;
+  width: 100%;
+  margin-left: 3%;
+}
+.box3 {
+  background-color: darkolivegreen;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.open {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(219, 213, 213);
+}
+.blog-content {
+  width: 80%;
+  margin: 10% auto;
+  text-align: left;
+  padding-top: 5%;
+}
+.blog-logo {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 20px;
+  color: crimson;
+  margin-bottom: 20px;
+}
+.blog-message {
+  font-size: 30px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+.card {
+  width: 30%;
+  cursor: pointer;
+  border: 1px solid #e9eaea;
+  border-radius: 10px;
+  position: relative;
+}
+.card::before {
+  content: "Blog";
+  background-color: crimson;
+  color: white;
+  border-radius: 10px 0 0 0;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.text-box {
+  padding: 15px;
+  background-color: floralwhite;
+}
+.card-img {
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  line-height: 1.5;
+}
+.date {
+  font-size: 10px;
+  margin-top: 10%;
+  text-align: left;
+  display: inline-block;
+}
+.name {
+  font-size: 10px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.card__btn {
+  width: 20%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid crimson;
+  color: crimson;
+  background-color: floralwhite;
+  text-align: center;
+  margin: 5% auto;
+}
+.company-content {
+  width: 80%;
+  margin: 10% auto;
+  margin-left: 20%;
+  text-align: left;
+}
+.company-logo {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 20px;
+  color: crimson;
+  margin-bottom: 20px;
+}
+.company-message {
+  font-size: 30px;
+  margin-bottom: 10%;
+}
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  border: 1px solid black;
+  padding: 20px;
+}
+table th {
+  font-weight: bold;
+  background-color: darkgray;
+}
+.photo {
+  display: flex;
+}
+.mv {
+  position: relative;
+  background: url(./img/recruit.png) no-repeat center/cover;
+  height: 50vh;
+  width: 50vw;
+}
+.mv_message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #e9eaea;
+}
+.mv2 {
+  position: relative;
+  background: url(./img/interview.png) no-repeat center/cover;
+  height: 50vh;
+  width: 50vw;
+}
+.mv2_message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #e9eaea;
+}
+.request {
+  width: 100%;
+  text-align: center;
+}
+.request-message {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20% auto;
+}
+.line {
+  margin-left: 50%;
+  margin-top: -10%;
+  width: 5px;
+  height: 100px;
+  background-color: crimson;
+}
+.request__btn {
+  background: linear-gradient(90deg, crimson, brown);
+  color: #e9eaea;
+  width: 20%;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10% auto;
+  text-align: center;
+  box-shadow: 0 5px 3px brown;
+  position: relative;
+  display: block;
+}
+.request__btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  background: url(./img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-50%);
+}
+.footer {
+  height: 50px;
+  padding: 0 20px;
+  text-align: center;
+  background-color: rgb(219, 213, 213);
+}
+.footer-ttl {
+  font-weight: lighter;
+  color: darkgrey;
+  margin: 10% auto;
+  line-height: 50px;
+}
